@@ -9,7 +9,8 @@
   width: 100%;
   height: 80px;
   display: flex;
-  justify-content: space-around;
+  z-index: 1;
+  justify-content: space-between;
   padding: 20px 10px 20px 10px;
   background-image: url("https://eep.io/images/yzco4xsimv0y/7gBk3LTMveIZupaWMwacrP/a49755e848f7b21c1f8e6a05fc7f9799/Thumbnail_Image_01.jpg?w=1920&q=95");
 }
@@ -25,6 +26,8 @@
 .heading {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 22px;
+  position: fixed;
+  margin-left: 45%;
 }
 
 .ul_one a:hover {
@@ -41,10 +44,10 @@
 }
 
 .middletext {
-  padding-top: 200px;
+  padding-top: 300px;
   text-align: center;
   font-size: 25px;
-  height: 300px;
+  height: 400px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-image: url("https://eep.io/images/yzco4xsimv0y/7gBk3LTMveIZupaWMwacrP/a49755e848f7b21c1f8e6a05fc7f9799/Thumbnail_Image_01.jpg?w=1920&q=95");
 }
@@ -136,7 +139,7 @@
   margin-right: auto;
   margin-top: 60px;
   margin-bottom: auto;
-  height: 100vh;
+  height: 190vh;
 }
 
 .content_wrapper {
@@ -144,7 +147,7 @@
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
-  height: 500vh;
+  height: 100vh;
   display: flex;
 }
 
@@ -154,6 +157,7 @@
   width: 25%;
   position: sticky;
   top: 80px;
+  z-index: 0;
 }
 
 .jumpLinkNav__item {
@@ -161,7 +165,6 @@
   padding-top: 30px;
   padding-bottom: 20px;
   border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
 }
 
 .jumpLinkNav__item a {
@@ -169,8 +172,78 @@
 }
 
 .content {
-  height: 100vh;
+  height: 190vh;
   background-color: #fff;
   width: 70%;
   margin-left: 50px;
+}
+
+.footer_head {
+  width: 100%;
+  height: 100px;
+  background-color: #efeeea;
+  border-bottom: 1px solid grey;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.info_links {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 40px;
+  padding-right: 30px;
+}
+
+.info_links h3,
+a {
+  text-decoration: none;
+  padding-right: 30px;
+  color: #241c15;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer_box {
+  width: 100%;
+  background-color: #efeeea;
+  height: 600px;
+}
+
+.footer_itemscontainer {
+  width: 90%;
+  background-color: #efeeea;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footerItemColumn {
+  background-color: #efeeea;
+  height: 500px;
+  padding-top: 40px;
+  margin: 10px;
+}
+
+.footerItem {
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 9px;
+}
+
+.third {
+  margin-top: 15px;
+}
+
+.oneline {
+  margin-top: 60px;
+}
+
+.p_one {
+  padding-top: 20px;
+}
+
+.p_two {
+  padding-top: 20px;
 }
