@@ -15,6 +15,17 @@
   background-image: url("https://eep.io/images/yzco4xsimv0y/7gBk3LTMveIZupaWMwacrP/a49755e848f7b21c1f8e6a05fc7f9799/Thumbnail_Image_01.jpg?w=1920&q=95");
 }
 
+.ul_one {
+  width: 380px;
+}
+
+.ul_one:hover {
+  width: 380px;
+  background-color: #fff;
+  height: 100vh;
+  transition: 0.8s;
+}
+
 .ul_one a {
   padding: 0px 10px 0px 10px;
   text-decoration: none;
@@ -107,7 +118,7 @@
   padding: 10px;
 }
 
-.search-box:hover > .search-txt {
+.search-box:hover .search-txt {
   width: 100px;
   padding: 0 6px;
   transition: 0.8s;
